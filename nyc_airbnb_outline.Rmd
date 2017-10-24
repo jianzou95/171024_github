@@ -13,7 +13,7 @@ library(janitor)
 
 ## Data import
 
-I'll load the tidyverse and the dataset. I'm also doing a bit of editing and renaming to make my life easier. 
+I'll load the tidyverse and the dataset. I'm also doing a bit of editing and renaming to make my life easier. Here is the course of Jeff. Jian Zou
 
 ```{r}
 airbnb_data = read_csv("./data/nyc_airbnb.zip")
