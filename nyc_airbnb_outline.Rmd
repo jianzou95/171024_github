@@ -4,6 +4,11 @@ knitr::opts_chunk$set(
   fig.asp = .6,
   out.width = "90%"
 )
+
+library(tidyverse)
+library(haven)
+library(readxl)
+library(janitor)
 ```
 
 ## Data import
@@ -11,7 +16,7 @@ knitr::opts_chunk$set(
 I'll load the tidyverse and the dataset. I'm also doing a bit of editing and renaming to make my life easier. 
 
 ```{r}
-
+airbnb_data = read_csv("./data/nyc_airbnb.zip")
 ```
 
 ## Understanding variables

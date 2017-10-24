@@ -122,6 +122,27 @@ $(document).ready(function () {
 <div id="data-import" class="section level2">
 <h2>Data import</h2>
 <p>I’ll load the tidyverse and the dataset. I’m also doing a bit of editing and renaming to make my life easier.</p>
+<pre class="r"><code>airbnb_data = read_csv(&quot;./data/nyc_airbnb.zip&quot;)</code></pre>
+<pre><code>## Parsed with column specification:
+## cols(
+##   id = col_integer(),
+##   review_scores_location = col_integer(),
+##   name = col_character(),
+##   host_id = col_integer(),
+##   host_name = col_character(),
+##   neighbourhood_group = col_character(),
+##   neighbourhood = col_character(),
+##   latitude = col_double(),
+##   longitude = col_double(),
+##   room_type = col_character(),
+##   price = col_integer(),
+##   minimum_nights = col_integer(),
+##   number_of_reviews = col_integer(),
+##   last_review = col_date(format = &quot;&quot;),
+##   reviews_per_month = col_double(),
+##   calculated_host_listings_count = col_integer(),
+##   availability_365 = col_integer()
+## )</code></pre>
 </div>
 <div id="understanding-variables" class="section level2">
 <h2>Understanding variables</h2>
